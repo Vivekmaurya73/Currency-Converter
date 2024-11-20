@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("./images/svg.jpg")  no-repeat center;
+  background-size: cover;
+  
+}
+
+.currency-convert{
+  
+  background: blue;
+  padding: 40px 30px 50px;
+  border-radius: 8px;
+  max-width: 410px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 8px 32px rgb(0,0,0,0.5) ;
+  background-color:#ffffff4d ;
+  border: 1px solid #ffffff4d;
+}
+.currency-convert .form-lable{
+  background-color:white ;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.from-convert {
+  display: inline-flex;
+  background: white;
+  padding: 18px 18px 19px;
+  border-radius: 7px;
+  
+  border: 0px solid white;
+}
+
+.to-convert {
+  background: white;
+  padding: 18px 18px 19px;
+  border-radius: 7px;
+  
+  
+  display: flex;
+  border: 0px solid white;
+}
+.BUTTON{
+  background: blue;
+  color: white;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 0px;
+  margin-left: 150px;
+  align-items: center;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 600;
+}
+ .btn{
+  width: 100%;
+  min-height:52px ;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:0.2 ease ;
+  background: blue;
+  margin-top: 10px;
+  color: white;
+  
+}
+.Input{
+  padding: 9px 13px 15px 12px;
+ 
+  border: 0px solid white;
+}
+.sel{
+  padding: 6.9px 13px 15px 13px;
+    border: 0px solid white;
+}
+.form-label .Input{
+  display: inline-flex;
+
+}
